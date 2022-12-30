@@ -1,12 +1,12 @@
 
 const calc = document.getElementById('calc');
 const clean = document.getElementById('clean');
+const resultImc = document.getElementById('resultImc');
+const resultClassification = document.getElementById('resultClassification');
 
 function calculateImc() {
     const weight = document.getElementById('weight').value;
     const height = document.getElementById('height').value;
-    const resultImc = document.getElementById('resultImc');
-    const resultClassification = document.getElementById('resultClassification');
 
     let classification = '';
 
@@ -27,9 +27,9 @@ function calculateImc() {
             classification = 'Obesidade Grau III'
         }
 
-        resultImc.textContent = `Valor do IMC: ${imc}`;
+        resultImc.textContent = imc;
 
-        resultClassification.textContent = `Valor do IMC: ${classification}`;
+        resultClassification.textContent = classification;
     }
 }
 
@@ -39,6 +39,9 @@ function cleanForm() {
 
     const weightClean = document.getElementById('weight').value='';
     const heightClean = document.getElementById('height').value='';
+    resultImc.textContent = '';
+    resultClassification.textContent = '';
+    
 }
 
 clean.addEventListener('click', cleanForm);
