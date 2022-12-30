@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculadora de IMC</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
 </head>
+
 <body>
-        <div class="container"> 
+    <main>
+        <div class="container">
             <div id="title">
                 <h1>Calculadora IMC</h1>
             </div>
             <div class="form">
-                <label>Informe a altura</label>
-                <input type="number" placeholder="Altura" id="height">
-                <label>Informe o peso</label>
-                <input type="number" placeholder="Peso" id="weight">
-                <button id="calc">Calcular</button>
-                <button id="clean">Limpar</button>
+                <div class="inputs">
+                    <label>Informe a altura</label>
+                    <input type="number" placeholder="Altura" id="height">
+                </div>
+                <div class="inputs">
+                    <label>Informe o peso</label>
+                    <input type="number" placeholder="Peso" id="weight">
+                </div>
+                <div class="btn">
+                    <button id="calc">Calcular</button>
+                    <button id="clean">Limpar</button>
+                </div>
+
+                <div id="resultImc"></div>
+
+                <div id="resultClassification"></div>
+                
             </div>
         </div>
+    </main>
+
 </body>
+
+<script src="./js/main.js"></script>
+
 </html>
