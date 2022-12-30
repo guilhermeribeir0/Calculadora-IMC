@@ -35,3 +35,13 @@ function calculateImc() {
 
 calc.addEventListener('click', calculateImc);
 
+function cleanForm() {
+
+    const weightClean = document.getElementById('weight').value='';
+    const heightClean = document.getElementById('height').value='';
+}
+
+clean.addEventListener('click', cleanForm);
+
+
+
