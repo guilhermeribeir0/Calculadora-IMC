@@ -5,12 +5,14 @@ const resultImc = document.getElementById('resultImc');
 const resultClassification = document.getElementById('resultClassification');
 
 function calculateImc() {
+
     const weight = document.getElementById('weight').value;
     const height = document.getElementById('height').value;
-
+    
     let classification = '';
 
     if (weight !== '' && height !== '') {
+
         const imc = (weight / (height * height)).toFixed(2);
 
         if (imc < 18.5) {
@@ -37,8 +39,8 @@ calc.addEventListener('click', calculateImc);
 
 function cleanForm() {
 
-    const weightClean = document.getElementById('weight').value='';
-    const heightClean = document.getElementById('height').value='';
+    weight.value = '';
+    height.value = '';
     resultImc.textContent = '';
     resultClassification.textContent = '';
     
