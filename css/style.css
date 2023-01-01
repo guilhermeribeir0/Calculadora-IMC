@@ -1,0 +1,19 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: rgb(5,0,93);
+  background: radial-gradient(circle, rgba(5,0,93,1) 0%, rgba(17,17,73,1) 45%, rgba(56,33,126,1) 100%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
