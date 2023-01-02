@@ -18,25 +18,24 @@
             </div>
             <div class="form">
                 <div class="inputs">
-                    <label>Informe a altura</label>
-                    <input type="number" placeholder="Altura" id="height">
+                    <label>Informe a altura:</label>
+                    <input id="height">
                 </div>
                 <div class="inputs">
-                    <label>Informe o peso</label>
-                    <input type="number" placeholder="Peso" id="weight">
+                    <label>Informe o peso:</label>
+                    <input id="weight">
                 </div>
                 <div class="btn">
-                    <button id="calc">Calcular</button>
-                    <button id="clean">Limpar</button>
+                    <button id="calc" type="submit">Calcular</button>
+                    <button id="clean" type="submit">Limpar</button>
                 </div>
                 <div class="result">
-                    <h4>IMC</h4>
-                    <div id="resultImc"></div>
+                    <h4>Resultado - IMC</h4>
+                    <p id="resultImc" class="results"></p>
+
                     <h4>Classificação</h4>
-                    <div id="resultClassification"></div>
+                    <p id="resultClassification" class="results"></p>
                 </div>
-                
-                
             </div>
         </div>
     </main>
