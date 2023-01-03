@@ -20,12 +20,12 @@ body {
   flex-direction: column;
   margin-top: 80px;
   width: 400px;
-  height: 600px;
+  height: 640px;
   border-radius: 20px;
 }
 
 #title {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .form {
@@ -44,13 +44,14 @@ label {
 }
 
 input {
-  color: white;
+  color: rgb(0, 50, 100);
   text-align: center;
   font-size: 1.4rem;
+  font-weight: 600;
   width: 100px;
   height: 48px;
   border-radius: 10px;
-  background-color: rgb(46, 121, 173);
+  background-color: rgb(252, 252, 252);
   border: none;
   outline: 0;
 }
@@ -91,19 +92,27 @@ button {
 }
 
 .result .results {
+  color: rgb(0, 50, 100);
   margin: 10px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(46, 121, 173);
+  background-color: rgb(252, 252, 252);
   width: 220px;
-  height: 60px;
+  height: 50px;
   border-radius: 10px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 footer {
   text-align: center;
-  margin-top: 40px;
-  font-size: 1.2rem;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 360px) {
+    .container {
+        width: 360px;
+        margin-top: 20px;
+    }
 }
