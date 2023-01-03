@@ -26,6 +26,13 @@ body {
 
 #title {
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 40px;
+  margin-right: 10px;
 }
 
 .form {

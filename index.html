@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/style.css" rel="stylesheet">
-    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+    </style>
     <title>Calculadora de IMC</title>
 </head>
 
@@ -14,16 +16,17 @@
     <main>
         <div class="container">
             <div id="title">
+                <img src="assets/calculator.png">
                 <h1>Calculadora IMC</h1>
             </div>
             <div class="form">
                 <div class="inputs">
-                    <label>Informe a altura:</label>
-                    <input id="height">
+                    <label>Informe sua altura:</label>
+                    <input placeholder="Ex: 1.80" id="height">
                 </div>
                 <div class="inputs">
-                    <label>Informe o peso:</label>
-                    <input id="weight">
+                    <label>Informe seu peso:</label>
+                    <input placeholder="Ex: 80.4" id="weight">
                 </div>
                 <div class="btn">
                     <button id="calc" type="submit">Calcular</button>
@@ -42,8 +45,6 @@
             </footer>
         </div>
     </main>
-    
-
 </body>
 
 <script src="./js/main.js"></script>
