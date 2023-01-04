@@ -9,3 +9,5 @@
     <li>CSS</li>
     <li>JavaScript</li>
 </ul>
+
+<p>Para visualizar o projeto, <a href="https://guilhermeribeir0.github.io/Calculadora-IMC/">clique aqui</a></p>
