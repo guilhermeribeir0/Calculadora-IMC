@@ -1,6 +1,6 @@
-<h2 align="center">Calculadora de IMC</h2>
+<h1 align="center">Calculadora de IMC</h1>
 
-<h3>Funcionalidades</h3>
+<h3>Funcionalidade</h3>
 
 <p>Calcular o Índice de Massa Corporal do usuário e divulgar o resultado e a classificação.</p>
 
